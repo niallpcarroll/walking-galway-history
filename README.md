@@ -114,7 +114,7 @@ The h1-heading changes the amount of rows it is dispensed on depending on which 
 
 ![Screenshot of the sites recipe page](assets/images/readme-images/)
 
-**The footer** contains links to Facebook, Twitter and Instagram to encourage visitors to keep in contact via social media.
+**The footer** contains links to Facebook, YouTube and Instagram to encourage visitors to keep in contact via social media.
 
 ![Screenshot of the sites footer](assets/images/readme-images/)
 
@@ -224,15 +224,15 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Feature|Test case|Outcome|
 |---|---|---|
 |Header |Scroll down through site |Sticks to top of viewport |
-|Nav bar - Home |Click |Redirected to landing page |
-|Nav bar - Inspo |Click |Redirected to Inspiration page |
-|Nav bar - Recipes |Click |Redirected to Recipe page |
+|Nav bar - Home |Click |Redirected to home page |
+|Nav bar - Gallery |Click |Redirected to Gallery page |
+|Nav bar - Contact |Click |Redirected to Contact page |
 |Nav bar - Icon (tablets and smaller) |Click |Menu shows |
-|Newsletter form - hidden |Click |Newsletter form shows |
-|Newsletter form|Give the required information|Form is successfully sent|
-|Newsletter form (desktop)|Scroll down through site|The newsletter form sticks to top of viewport (under the header) inside Recipe page|
-|Newsletter form - submit button|Click|Submits form|
-|Newsletter form - reseet button|Click|Resets form|
+|Contact form - hidden |Click |Contact form shows |
+|Contact form|Give the required information|Form is successfully sent|
+|Contact form (desktop)|Scroll down through site|The Contact form sticks to top of viewport (under the header) inside Contact page|
+|Contact form - submit button|Click|Submits form|
+|Contact form - reseet button|Click|Resets form|
 |Social media link - Instagram |Click |Redirected to Instagram |
 |Social media link - Youtube |Click |Redirected to Youtube |
 |Social media link - Facebook |Click |Redirected to Facebook |
