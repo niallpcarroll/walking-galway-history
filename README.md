@@ -75,7 +75,7 @@ The images used on the website are up-to-date images of Galway, and they are all
 ### Wireframes 
 These were the original ideas for the three different sections:
 
-![Image of the wireframe for mobiles](assets/readme-images/mobile_wireframe.png)
+![Image of the wireframe for mobiles](/assets/readme-images/Mobile_Wireframe.png)
 ***
 ![Image of the wireframe for large screens](assets/images/)
 ***
