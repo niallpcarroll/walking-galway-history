@@ -75,19 +75,16 @@ The images used on the website are up-to-date images of Galway, and they are all
 ### Wireframes 
 These were the original ideas for the three different sections:
 
-![Image of the wireframe for the landing page](assets/images/)
+![Image of the wireframe for mobiles](assets/readme-images/mobile_wireframe.png)
 ***
-![Image of the wireframe for the inpiration page](assets/images/)
+![Image of the wireframe for large screens](assets/images/)
 ***
-![Image of the wireframe for the recipe page and footer](assets/images/readme-images/)
+![Image of the ](assets/images/readme-images/)
 ***
 
-It is easy to see where the initial design idea differs from the result. The content in the Inspo page used the space to inefficiently and a simpler design were chosen instead.
-
-The contact feature in the footer was deleted due to not contributing to the user in this particular site.
 
 ### Other
-One unfortunate design feature is the empty space between the h2-headings and the page top in the inspiration page and the recipe page. This is required to take the visitor to the correct place on the site when clicking the links in the menu (since the header is sticking to the top of the viewport).
+One unfortunate design feature... 
 
 Other solutions, like hiding a div in the page above and addressing the link there, where discarded.
 ## Features
