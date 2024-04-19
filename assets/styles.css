@@ -1,0 +1,12 @@
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    background-color: #ffffff ;
+    color: #1500E6;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
