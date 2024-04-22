@@ -11,7 +11,7 @@
     <title>Walking Galway History</title>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/favicon/history_favicon.png">
-    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
 </head>
 
 <body>
@@ -24,12 +24,41 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section id="contact">
+            <form action="https://formdump.codeinstitute.net" method="post" id="contact-form">
+                <label for="first-name">First Name:</label><br>
+                <input type="text" id="first-name" name="first-name" required><br>
+                <label for="last-name">Last Name:</label><br>
+                <input type="text" id="last-name" name="last-name" required><br>
+                <label for="email-address">Email Address</label><br>
+                <input type="email" class="text-input" name="email_address" id="email-address" required>
+                <br>
+                <div class="radio-buttons">
+                    <p>Would you like to receive our newsletter?</p>
+                    <div>
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="newsletter-signup" id="yes" value="yes" checked required>
+                    </div>
+                    <div>
+                        <label for="no">No</label>
+                        <input type="radio" name="newsletter-signup" id="no" value="no" required>
+                    </div>
+                    <div>
+                        <textarea id="comments" name="comments" rows="5"
+                            cols="50">Feel free to add your comments or questions here!</textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+    </main>
 
 
     <!-- Footer -->
@@ -46,10 +75,10 @@
                         class="fa-brands fa-instagram"></i></a></li>
         </ul>
 
-      
+
     </footer>
-     <!-- Font Awesome kit -->
-     <script src="https://kit.fontawesome.com/ffb135a1f3.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/ffb135a1f3.js" crossorigin="anonymous"></script>
 
 </body>
 

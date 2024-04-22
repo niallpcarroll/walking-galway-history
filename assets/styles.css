@@ -67,7 +67,9 @@ nav {
     font-size: 2rem;
 }
 
-
+main {
+    padding-top: 100px;
+}
 
 #main-div {
     background-color: #0c2b80;
