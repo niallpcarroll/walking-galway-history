@@ -5,7 +5,7 @@ The aim of this website is to provide clear and concise information on walking t
 
 It is aimed primarily at tourists and visitors to Galway, and it is designed to provide eaily accessible and up-to-date information about the walking tours on offer.
 
-Find the link to the site [here](https://github.com/niallpcarroll/walking-galway-history.git)
+Find the link to the site [here](https://niallpcarroll.github.io/walking-galway-history/)
 
 
 ![Image of the site depicted on different devices](assets/images/readme-images/responsive-site.)
@@ -150,7 +150,7 @@ Balsamiq - For wireframes
 Github pages is used to deploy this site. To deploy the site yourself, follow these instructions:
 
 - Sign in to Github
-- Go to the repository for this project called [*what-are-we-eating*](https://github.com/niallpcarroll/walking-galway-history.git)
+- Go to the repository for this project called [*walking-galway-history*](https://github.com/niallpcarroll/walking-galway-history.git)
 - Click *settings*
 - In the column to the left, click *pages*
 - From the dropdown, select *main branch* and then save
@@ -169,7 +169,7 @@ To fork the repository:
 #### How to Clone
 - Log in (or sign up) to GitHub.
 
-- Go to the repository for this project, [*what-are-we-eating*](https://github.com/niallpcarroll/walking-galway-history.git).
+- Go to the repository for this project, [*walking-galway-history*](https://github.com/niallpcarroll/walking-galway-history.git).
 
 - Click *Code* and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link.
 
