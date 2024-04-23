@@ -87,9 +87,32 @@ main {
     color: snow;
 }
 
+#gallery > div > img {
+    padding: 0 10px 0 10px;
+    width: 100%;
+    
+}
 
+#gallery > div > p {
+    text-align: center;
+    margin: 15px;
+    
+}
+
+#gallery h2 {
+    padding-left: 10px;
+}
 
 /* Footer */
+footer {
+    background-color: snow;
+    color: #0c2b80;
+}
+
+footer > h2 {
+    padding-top: 10px;
+    text-align: center;
+}
 
 #social-networks {
     text-align: center;
@@ -102,5 +125,5 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #0c2b80;
 }
