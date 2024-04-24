@@ -24,7 +24,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #0c2b80;
+    box-shadow: 0 3px 3px snow;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -78,19 +78,38 @@ nav {
     font-size: 2rem;
 }
 
+/* Main Section */
+
 main {
     padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 
 #main-div {
-    background-color: #0c2b80;
-    color: snow;
+    left: 10px;
+    padding: 10px;
+    width: 90%; 
+    
 }
 
+#main-div > div {
+    padding-bottom: 2rem;
+}
+
+p a {
+    color: inherit;
+}
+
+#tour-notes {
+    list-style-type: none;
+}
+
+/*  Gallery section */
+
 #gallery > div > img {
-    padding: 0 10px 0 10px;
+    padding: 20px 20px 0 20px;
     width: 100%;
-    
 }
 
 #gallery > div > p {
@@ -100,7 +119,7 @@ main {
 }
 
 #gallery h2 {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 /* Footer */
