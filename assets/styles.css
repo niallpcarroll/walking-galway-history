@@ -118,8 +118,9 @@ p a {
 
 /*  Gallery section */
 
-#gallery {
+#gallery-main {
     background-color: #0c2b80 !important;
+    background-image: none;
 }
 
 #gallery > div > img {
