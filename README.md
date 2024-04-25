@@ -75,10 +75,13 @@ The images used on the website are up-to-date images of Galway, and they are all
 ### Wireframes 
 These were the original ideas for the three different sections:
 
+Image of wireframe for mobile devices:
 ![Image of the wireframe for mobiles](/assets/readme-images/Mobile_Wireframe.png)
 ***
+Image of wireframe for tablets:
 ![Image of the wireframe for tablets](/assets/readme-images/tablet_wireframe.png)
 ***
+Image of wireframe for large screens:
 ![Image of the wireframe for large screens ](assets/images/readme-images/)
 ***
 
