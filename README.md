@@ -82,6 +82,7 @@ Images of wireframes for tablets:
 ![Image of the wireframe for tablets](/assets/readme-images/tablet_wireframe.png)
 ***
 Images of wireframes for large screens:
+
 ![Image of the homepage wireframe for large screens ](/assets/readme-images/home_large_screen.png)
 ![Image of the gallery wireframe for large screens ](/assets/readme-images/gallery_large_screen.png)
 ![Image of the contact wireframe for large screens ](/assets/readme-images/contact_large_screen.png)
