@@ -77,9 +77,9 @@ These were the original ideas for the three different sections:
 
 ![Image of the wireframe for mobiles](/assets/readme-images/Mobile_Wireframe.png)
 ***
-![Image of the wireframe for large screens](assets/images/)
+![Image of the wireframe for tablets](/assets/readme-images/tablet_wireframe.png)
 ***
-![Image of the ](assets/images/readme-images/)
+![Image of the wireframe for large screens ](assets/images/readme-images/)
 ***
 
 
