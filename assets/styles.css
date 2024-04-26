@@ -111,10 +111,11 @@ h1, h2 {
 }
 
 hr {
-    margin-bottom: 10px;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-bottom: 15px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 2px;
 }
 
 p {
