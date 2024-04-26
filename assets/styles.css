@@ -95,24 +95,26 @@ main {
 
 
 /* Blue transparent background for divs */
-.home {
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.div-background {
+    margin: 5%;
     padding: 15px;
     width: 90%; 
     background-color: rgba(12, 43, 128, 0.8);
+    border-radius: 5px;
 }
 
 h1, h2 {
     text-transform: uppercase;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 hr {
     margin-bottom: 10px;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 p {
@@ -157,6 +159,7 @@ p a {
 
 #gallery h2 {
     padding-left: 20px;
+    text-align: left;
 }
 
 #gallery h3 {
@@ -169,11 +172,10 @@ h3 a {
 }
 
 /* Contact page */
-#contact {
+.contact {
     margin: 5%;
     padding: 15px;
     width: 90%; 
-    background-color: rgba(12, 43, 128, 0.8);
     max-height: 50%;
 }
 
@@ -199,6 +201,7 @@ h3 a {
     margin: 25px 0 20px 0;
     border: 1px solid #fffafa;
     border-radius: 4px;
+    padding: 5px;
 }
 
 textarea::placeholder {
@@ -213,6 +216,7 @@ textarea::placeholder {
     background-color: #fffafa;
     color: #0c2b80;
     box-shadow: 5px 5px 3px #3a3a3a;
+    text-transform: uppercase;
 }
  
 /* Confirmation page */

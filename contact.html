@@ -33,31 +33,41 @@
 
     <main>
         <section id="contact">
-            <form action="confirmation.html" target="_blank" id="contact-form">
-                <label for="first-name">First Name:</label><br>
-                <input type="text" class="text-input" id="first-name" name="first-name" required><br>
-                <label for="last-name">Last Name:</label><br>
-                <input type="text" class="text-input" id="last-name" name="last-name" required><br>
-                <label for="email-address">Email Address</label><br>
-                <input type="email" class="text-input" name="email-address" id="email-address" required>
+            <div class="div-background contact">
+                <h2>Get in touch!</h2>
+                <p>If you would like to learn more about Walking Galway History tours, please contact us using this
+                    form.</p>
                 <br>
-                <div class="radio-buttons">
-                    <p>Would you like to receive our newsletter?</p>
-                    <div>
-                        <label for="yes">Yes</label>
-                        <input type="radio" name="newsletter-signup" id="yes" value="yes" checked required>
+                <p>To be kept up to date with our seasonal and themed tours don't forget to sign up for our newsletter!
+                </p>
+            </div>
+            <div class="div-background contact">
+                <form action="confirmation.html" target="_blank" id="contact-form">
+                    <label for="first-name">First Name:</label><br>
+                    <input type="text" class="text-input" id="first-name" name="first-name" required><br>
+                    <label for="last-name">Last Name:</label><br>
+                    <input type="text" class="text-input" id="last-name" name="last-name" required><br>
+                    <label for="email-address">Email Address</label><br>
+                    <input type="email" class="text-input" name="email-address" id="email-address" required>
+                    <br>
+                    <div class="radio-buttons">
+                        <p>Would you like to receive our newsletter?</p>
+                        <div>
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="newsletter-signup" id="yes" value="yes" checked required>
+                        </div>
+                        <div>
+                            <label for="no">No</label>
+                            <input type="radio" name="newsletter-signup" id="no" value="no" required>
+                        </div>
                     </div>
                     <div>
-                        <label for="no">No</label>
-                        <input type="radio" name="newsletter-signup" id="no" value="no" required>
+                        <textarea id="comments" name="comments" rows="5" cols="40"
+                            placeholder="Feel free to add your comments or questions here!"></textarea>
                     </div>
-                </div>
-                <div>
-                    <textarea id="comments" name="comments" rows="5" cols="40"
-                        placeholder="Feel free to add your comments or questions here!"></textarea>
-                </div>
-                <button type="submit" class="submit-button">Submit</button>
-            </form>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
         </section>
     </main>
 
