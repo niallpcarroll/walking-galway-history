@@ -36,8 +36,6 @@ header a {
     color: inherit;
 }
 
-
-
 #menu {
     list-style-type: none;
     letter-spacing: 4px;
@@ -54,7 +52,6 @@ header a {
 
 
 /* Navbar styles */
-
 nav {
     position: absolute;
     background-color: snow;
@@ -80,7 +77,6 @@ nav {
 }
 
 /* Main Section */
-
 main {
     flex: 1 0 auto;
     padding-top: 100px;
@@ -92,7 +88,6 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 /* Blue transparent background for divs */
 .div-background {
@@ -135,9 +130,7 @@ p a {
     color: inherit;
 }
 
-
 /*  Gallery section */
-
 #gallery-main {
     background: #0c2b80 !important;
     background-image: none;
@@ -241,7 +234,6 @@ textarea::placeholder {
     padding: 30px;
     text-align: center;
     background: rgba(12, 43, 128, 0.8);
-
 }
 
 /* Footer */
