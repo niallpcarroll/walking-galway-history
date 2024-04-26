@@ -93,11 +93,39 @@ main {
     flex-wrap: wrap;
 }
 
+/*
 #main-div {
     margin-left: 5%;
     padding: 15px;
     width: 90%; 
     background-color: rgba(12, 43, 128, 0.8);    
+}
+*/
+
+/* Blue transparent background for divs */
+.home {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 15px;
+    width: 90%; 
+    background-color: rgba(12, 43, 128, 0.8);
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+p {
+    line-height: 2;
+    text-align: justify;
 }
 
 #home-section {
@@ -112,9 +140,6 @@ p a {
     color: inherit;
 }
 
-#tour-notes {
-    list-style-type: none;
-}
 
 /*  Gallery section */
 
