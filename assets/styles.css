@@ -92,13 +92,13 @@ main {
 /* Hero section */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/galway_skyline.jpg);
-    height: 130px;
+    height: 140px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-top: 40px;
-    border-bottom: 7px solid  #fffafa;    
+    border-bottom: 10px solid #fffafa;
 }
 
 .hero-text {
@@ -109,19 +109,19 @@ main {
     left: 20%;
     right: 20%;
     color: #fffafa;
-    
 }
 
 /* Blue transparent background for divs */
 .div-background {
     margin: 5%;
     padding: 15px;
-    width: 90%; 
+    width: 90%;
     background-color: rgba(12, 43, 128, 0.8);
     border-radius: 5px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-transform: uppercase;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -145,7 +145,7 @@ p {
     margin-bottom: 2rem;
 }
 
-#main-div > div {
+#main-div>div {
     padding-bottom: 2rem;
 }
 
@@ -163,15 +163,17 @@ p a {
     padding-bottom: 40px;
 }
 
-#gallery > div > img {
-    padding: 20px 20px 0 20px;
-    width: 100%;
+#gallery>div>img {
+    /*padding: 20px 20px 0 20px;*/
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-#gallery > div > p {
+#gallery>div>p {
     text-align: center;
     margin: 15px;
-    
+
 }
 
 #gallery h2 {
@@ -184,6 +186,10 @@ p a {
     padding: 30px;
 }
 
+img {
+    border: 3px solid #fffafa;
+}
+
 h3 a {
     color: inherit;
 }
@@ -192,7 +198,7 @@ h3 a {
 .contact {
     margin: 5%;
     padding: 15px;
-    width: 90%; 
+    width: 90%;
     max-height: 50%;
 }
 
@@ -220,6 +226,7 @@ h3 a {
     border: 2px solid #fffafa;
     border-radius: 4px;
     padding: 5px;
+    
 }
 
 textarea::placeholder {
@@ -233,10 +240,10 @@ textarea::placeholder {
     font-size: 100%;
     background-color: #fffafa;
     color: #0c2b80;
-    box-shadow: 5px 5px 3px #3a3a3a;
+    box-shadow: 5px 5px 3px #1f1c28;
     text-transform: uppercase;
 }
- 
+
 /* Confirmation page */
 #confirmation-main {
     flex: 1 0 auto;
@@ -269,7 +276,7 @@ footer {
     width: 100%;
 }
 
-footer > h2 {
+footer>h2 {
     padding-top: 10px;
     text-align: center;
 }
