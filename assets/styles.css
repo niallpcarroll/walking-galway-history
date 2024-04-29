@@ -180,8 +180,6 @@ p a {
 
 }
 
-
-
 #gallery h2 {
     padding-left: 20px;
     text-align: left;
@@ -238,7 +236,7 @@ h3 a {
     border: 2px solid #fffafa;
     border-radius: 4px;
     padding: 5px;
-    
+
 }
 
 textarea::placeholder {
@@ -316,7 +314,6 @@ footer>h2 {
         column-count: 2;
         column-gap: 0;
     }
-    
 }
 
 
@@ -334,7 +331,7 @@ footer>h2 {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 2rem;
     }
 
@@ -362,6 +359,11 @@ footer>h2 {
         column-count: 3;
         column-gap: 0;
     }
+
+    .image-container {
+        break-inside: avoid;
+    }
+
 
     /* Contact page */
     #contact {
@@ -392,7 +394,7 @@ footer>h2 {
         border-bottom: 1px solid #0c2b80;
     }
 
-   #main-1 {
+    #main-1 {
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
@@ -418,4 +420,3 @@ footer>h2 {
         font-size: 120%;
     }
 }
-
