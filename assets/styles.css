@@ -205,6 +205,10 @@ h3 a {
     border: 3px solid #fffafa;
 }
 
+.hidden-header {
+    display: none;
+}
+
 .text-input {
     background-color: rgba(74, 74, 156, 0.6);
     color: snow;
