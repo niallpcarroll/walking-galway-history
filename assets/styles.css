@@ -184,8 +184,9 @@ p a {
 }
 
 #gallery h3 {
-    float: left;
+    float: right;
     padding: 30px;
+    text-align: center;
 }
 
 img {
