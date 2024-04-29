@@ -163,18 +163,20 @@ p a {
     padding-bottom: 40px;
 }
 
-#gallery>div>img {
+#photos>div>img {
     /*padding: 20px 20px 0 20px;*/
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-#gallery>div>p {
+#photos>div>p {
     text-align: center;
     margin: 15px;
 
 }
+
+
 
 #gallery h2 {
     padding-left: 20px;
@@ -199,7 +201,8 @@ h3 a {
     margin: 5%;
     padding: 15px;
     width: 90%;
-    max-height: 50%;
+    max-height: 70%;
+    border: 3px solid #fffafa;
 }
 
 .text-input {
@@ -294,3 +297,71 @@ footer>h2 {
     padding: 5%;
     color: #0c2b80;
 }
+
+
+/* Media query: tablets and larger (768px +) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Main page */
+    .div-background {
+        width: 70%;
+        margin-left: 15%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Gallery page */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    /* Contact page */
+    #contact {
+        width: 70%;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .submit-button {
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .submit-button:hover {
+        background-color: #0c2b80;
+        color: #fffafa;
+    }
+
+    .text-input:hover {
+        border-color: #0c2b80;
+    }
+}
+
+/* Media query: Large devices (992px +)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #0c2b80;
+    }
+}
+
