@@ -338,8 +338,11 @@ footer>h2 {
     }
 
     /* Gallery page */
-    #photos {
-        column-count: 2;
+    #gallery {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        column-count: 3;
         column-gap: 0;
     }
 
@@ -397,6 +400,5 @@ footer>h2 {
     .hero-text h3 {
         font-size: 150%;
     }
-    
 }
 
