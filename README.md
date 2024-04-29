@@ -3,7 +3,7 @@
 
 The aim of this website is to provide clear and concise information on walking tours of Galway, Ireland, which focus on the city's history.
 
-It is aimed primarily at tourists and visitors to Galway, and it is designed to provide eaily accessible and up-to-date information about the walking tours on offer.
+It is aimed primarily at tourists and visitors to Galway, and it is designed to provide eaily accessible and up-to-date information about the walking tours on offer. 
 
 Find the link to the site [here](https://niallpcarroll.github.io/walking-galway-history/)
 
@@ -46,7 +46,15 @@ The Walking Galway History website is designed to be easy and intuitive to use. 
 ### User Stories
 The website should be very straightforward for first-time users - the aim of the website is clear and the necessary details are easily accessible.
 
-Recurring visitors....
+* The user wants a website whose purpuse and function is clear - in this case, providing information about historical walking tours of Galway city.
+
+* The user wants an engaging experience, where the content of the website is clear, consistent and not overloaded with imagery or text.
+
+* The user would like a "preview" of what they might expect to see if they decide to take one of the tours on offer, i.e. the Gallery page.
+
+* The user wants a clear method for contacting the tour organisers or for signing up to the newsletter - the contact page is accessible through the main menu and through links in the text on the main page and the gallery page.
+
+* Recurring visitors would like a website which is kept up to date and which is not overloaded with information (for example, dates and times of tours which are long past).
 
 ## Design
 ### Colour Scheme
@@ -56,18 +64,14 @@ Choice of colours...
 
 
 ### Typography
-The site uses two fonts: "Poppins" for general text and "Madimi One" for headings. 
+The website uses one font throughout: "Philosopher".
 
-![Image of the font used in headings, Madimi One](assets/images/readme-images/font-headings)
-
-
-"Madimi One" is a fun, almost brush like font. It is a quite bold font, used in uppercase to make it stand out.
+![Image of the font used in headings, Philosopher](./assets/readme-images/philosopher_font_heading.png)
 
 
-![Image of the font used in general text, Poppins](assets/images/readme-images/font-general-text.)
+The "Philosopher" font is a sans-serif font which is very neat and suitable for both headings and text. It is clear and easy to read, but is not overly formal in its style.
 
 
-"Poppins" is a sans serif-font, easier to read.
 ### Imagery
 The images used on the website are up-to-date images of Galway, and they are all images of locations which visitors can expect to visit if they take part in a walking tour.
 
@@ -263,40 +267,21 @@ Below is a table with different browsers, how the site appears on them and how t
 ## Credits
 
 ### Code Used
-The following code where taken from Code Institutes *Love Running* project and later on adapted to this project.
+The code for the nav bar (with dropdown menu) is adapted from the Love Running project (link to Github repository: https://github.com/niallpcarroll/love-running-project.git).
 
-```
-  #menu-toggle {
-        display: none;
-    }
-
-    #menu-toggle-label {
-        font-size: 5rem;
-        padding: 2rem 5rem 0 0;
-        display: block;
-    }
-
-    #menu-toggle:checked~nav {
-        display: block;
-    }
-
-    #menu-toggle:checked~label {
-        display: none;
-    }
- ```
+The code for the hero image below the nav bar is adapted from the tutorial at W3Schools (https://www.w3schools.com/howto/howto_css_hero_image.asp)
     
 
 
 ### Content    
-
-
 Remaining content is written by myself.
-### Media
-All images are licensed to use in commercial products. 
-Images were taken from:
 
-https://www.pexels.com
+### Media
+Icons used throughout this website are freely available from https://fontawesome.com .
+
+All images - background photographs and gallery images - are my own.
+
 ### Acknowledgments
-Mentor
+I wish to acknowledge the support given by Code Institute staff and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario
 
 
