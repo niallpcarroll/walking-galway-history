@@ -19,13 +19,13 @@ body {
 
 /* Header */
 header {
-    background-color: snow;
+    background-color: #fffafa;
     color: #0c2b80;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px snow;
+    box-shadow: 0 3px 3px #fffafa;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -54,7 +54,7 @@ header a {
 /* Navbar styles */
 nav {
     position: absolute;
-    background-color: snow;
+    background-color: #fffafa;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -169,7 +169,6 @@ p a {
 }
 
 #photos>div>img {
-    /*padding: 20px 20px 0 20px;*/
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -227,8 +226,8 @@ h3 a {
 
 .radio-buttons {
     width: 100%;
-    /*display: flex;
-    justify-content: space-between;*/
+    /*display: flex;*/
+    justify-content: space-between;
 }
 
 #comments {
@@ -276,6 +275,10 @@ textarea::placeholder {
     padding: 30px;
     text-align: center;
     background: rgba(12, 43, 128, 0.8);
+}
+
+#confirmation>p {
+    text-align: center;
 }
 
 /* Footer */
