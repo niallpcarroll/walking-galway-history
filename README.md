@@ -247,39 +247,41 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Nav bar - Gallery |Click |Redirected to Gallery page |
 |Nav bar - Contact |Click |Redirected to Contact page |
 |Nav bar - Icon (tablets and smaller) |Click |Menu shows |
-|Contact form - hidden |Click |Contact form shows |
-|Contact form|Give the required information|Form is successfully sent|
-|Contact form (desktop)|Scroll down through site|The Contact form sticks to top of viewport (under the header) inside Contact page|
-|Contact form - submit button|Click|Submits form|
-|Contact form - reseet button|Click|Resets form|
-|Social media link - Instagram |Click |Redirected to Instagram |
-|Social media link - Youtube |Click |Redirected to Youtube |
-|Social media link - Facebook |Click |Redirected to Facebook |
+|Google Maps link |Click | Opens in new tab with location pin|
+|Contact links |Click | All redirect to contact page |
+|Contact form |Give the required information |Form is successfully sent |
+|Contact form |Omit required information| Form does not send; Notification displays |
+|Contact form - submit button |Click |Submits form|
+|Confirmation page |After clicking submit button |Displays confirmation |
+|Confirmation page |10 seconds after displaying |Redirects to home page | 
+|Social media link - Facebook |Click |External link to Facebook |
+|Social media link - Youtube |Click |External link to Youtube |
+|Social media link - Instagram |Click |External link to Instagram |
 
 #### Screen size compability
 Below is a table with different devices and the outcomes when visiting the site using different screen sizes.
 
 |Device|Site responsive <768px|Site responsive 768px to 991px|Site responsive 992px to 1919px| Site responsive >=1920px| Renders as expected |
 |---|---|---|---|---|---| 
-|Galaxy Fold |Good |N/A |N/A |N/A |Good |
-|iPad Mini |N/A|Good |N/A |N/A |Good |
-|Laptop (1366px wide) |N/A |N/A |Good |N/A |Good |
+|Galaxy S8+ |Yes |N/A |N/A |N/A |Yes |
+|iPad Mini |N/A|Yes |N/A |N/A |Yes |
+|Laptop (1366px wide) |N/A |N/A |Yes |N/A |Yes |
 |Desktop (1920px wide) |N/A |N/A |N/A | Good|Good |
 
 #### Browser compability
 Below is a table with different browsers, how the site appears on them and how the sites responsiveness is on them.
 
-|Browser|Intended appearance|Intended responsiveness|
+|Browser|Intended Appearance|Intended Responsiveness|
 |---|---|---|
-|Chrome |Good |Good |
-|Safari |Good |Good |
-|Edge |Good |Good |
-|Firefox |Good |Good |
+|Chrome |Yes |Yes |
+|Firefox |Yes |Yes |
+|Edge |Yes |Yes |
+|Brave |Yes |Yes |
 
 ## Credits
 
 ### Code Used
-The code for the nav bar (with dropdown menu) is adapted from the Love Running project (link to Github repository: https://github.com/niallpcarroll/love-running-project.git).
+The code for the nav bar (with dropdown menu) and the footer is adapted from the Love Running project (link to Github repository: https://github.com/niallpcarroll/love-running-project.git).
 
 The code for the hero image below the nav bar is adapted from the tutorial at W3Schools (https://www.w3schools.com/howto/howto_css_hero_image.asp)
     
@@ -294,6 +296,6 @@ Icons used throughout this website are freely available from https://fontawesome
 All images - background photographs and gallery images - are my own.
 
 ### Acknowledgments
-I wish to acknowledge the support given by Code Institute staff and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario
+I wish to acknowledge the support given by Code Institute staff and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario Carrasquel.
 
 
