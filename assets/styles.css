@@ -50,7 +50,6 @@ header a {
     border-bottom: 1px solid #0c2b80;
 }
 
-
 /* Navbar styles */
 nav {
     position: absolute;
@@ -177,7 +176,11 @@ p a {
 #photos>div>p {
     text-align: center;
     margin: 15px;
+}
 
+img {
+    border: 3px solid #fffafa;
+    border-radius: 5px;
 }
 
 #gallery h2 {
@@ -185,15 +188,11 @@ p a {
     text-align: left;
 }
 
+/* Text at bottom of gallery */
 #gallery h3 {
     float: right;
     padding: 30px;
     text-align: center;
-}
-
-img {
-    border: 3px solid #fffafa;
-    border-radius: 5px;
 }
 
 h3 a {
@@ -207,6 +206,10 @@ h3 a {
     width: 90%;
     max-height: 70%;
     border: 3px solid #fffafa;
+}
+
+.contact p {
+    text-align: center;
 }
 
 .hidden-header {
@@ -226,7 +229,6 @@ h3 a {
 
 .radio-buttons {
     width: 100%;
-    /*display: flex;*/
     justify-content: space-between;
 }
 
@@ -237,7 +239,6 @@ h3 a {
     border: 2px solid #fffafa;
     border-radius: 4px;
     padding: 5px;
-
 }
 
 textarea::placeholder {
@@ -321,7 +322,6 @@ footer>h2 {
     }
 }
 
-
 /* Media query: tablets and larger (768px +) */
 @media screen and (min-width: 768px) {
     nav {
@@ -369,7 +369,6 @@ footer>h2 {
         break-inside: avoid;
     }
 
-
     /* Contact page */
     #contact {
         width: 70%;
@@ -399,6 +398,7 @@ footer>h2 {
         border-bottom: 1px solid #0c2b80;
     }
 
+    /* Position text areas on main page */
     #main-1 {
         width: 40%;
         margin-left: 30%;
@@ -421,7 +421,13 @@ footer>h2 {
         text-align: center;
     }
 
+    /* Font size for hero text on main page */
     #hero-main {
         font-size: 120%;
+    }
+
+    /* Radio buttons layout */
+    .radio-buttons {
+        display: flex;
     }
 }
