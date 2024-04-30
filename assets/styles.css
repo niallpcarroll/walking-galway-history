@@ -432,3 +432,7 @@ footer>h2 {
         display: flex;
     }
 }
+
+/* Media query: Screens 1200px + */
+@media screen and (min-width: 1200px) {
+    
