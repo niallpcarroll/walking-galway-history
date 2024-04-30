@@ -209,32 +209,33 @@ I have used W3C validator to validate my HTML code and CSS code. I validated the
 
 Both passed without errors. The warning in the CSS validation was regarding imported imported stylesheets - in this case the Google Fonts stylesheet.
 
-![Screenshot of the W3C website after it validated this sites HTML code](assets/images/readme-images/)
+![Screenshot of the W3C website after it validated this site's HTML code](./assets/readme-images/w3_validator.png)
 
 
-![Screenshot of the W3C website after it validated this sites CSS code](assets/images/readme-images/)
+![Screenshot of the W3C website after it validated this site's CSS code](assets/images/readme-images/)
+
 #### Lighthouse
 Lighthouse is a tool created by Google to test a website's performance, accessibility, best practices, SEO and qualification as a progressive web application.
 
-It gives scores on the usability of the site. The test is done for a desktop version and a mobile version.
+It gives scores on the usability of the site. The test is done for mobile version and desktop version.
 
 **The score for a mobile device:**
 
-![Screenshot of the Lighthouse score for a mobile device](assets/images/readme-images/)
+![Screenshot of the Lighthouse score for a mobile device](./assets/readme-images/lighthouse_mobile.png)
 
 
 **The score for a desktop device:**
 
-![Screenshot of the Lighthouse score for a mobile device](assets/images/readme-images/)
+![Screenshot of the Lighthouse score for a desktop device](./assets/readme-images/lighthouse_desktop.png)
 
-Overall the scores are good. For a mobile device, the performance is lacking a bit. This is mostly due to some images being larger than they need to be for a mobile screen.
+
 
 #### WAVE
 Wave is another tool to test the accessibility of the site. This is the result:
 
-![Screenshot of WAVE score result after first test](assets/images/readme-images/)
+![Screenshot of WAVE score result after second test](./assets/readme-images/wave_screenshot.png)
 
-After the first test there was an error. It was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added and the error was corrected.
+An error appeared after the first test, indicating that a label element was missing text content. This error was corrected by adding an aria label and description to the label element in the navbar section.
 
 ### Manual Testing
 #### Features
@@ -247,11 +248,11 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Nav bar - Gallery |Click |Redirected to Gallery page |
 |Nav bar - Contact |Click |Redirected to Contact page |
 |Nav bar - Icon (tablets and smaller) |Click |Menu shows |
-|Google Maps link |Click | Opens in new tab with location pin|
-|Contact links |Click | All redirect to contact page |
+|Google Maps link |Click |Opens in new tab with location pin |
+|Contact links |Click |All redirect to contact page |
 |Contact form |Give the required information |Form is successfully sent |
-|Contact form |Omit required information| Form does not send; Notification displays |
-|Contact form - submit button |Click |Submits form|
+|Contact form |Omit required information |Form does not send; Notification displays |
+|Contact form - submit button |Click |Submits form |
 |Confirmation page |After clicking submit button |Displays confirmation |
 |Confirmation page |10 seconds after displaying |Redirects to home page | 
 |Social media link - Facebook |Click |External link to Facebook |
@@ -263,10 +264,10 @@ Below is a table with different devices and the outcomes when visiting the site 
 
 |Device|Site responsive <768px|Site responsive 768px to 991px|Site responsive 992px to 1919px| Site responsive >=1920px| Renders as expected |
 |---|---|---|---|---|---| 
-|Galaxy S8+ |Yes |N/A |N/A |N/A |Yes |
-|iPad Mini |N/A|Yes |N/A |N/A |Yes |
-|Laptop (1366px wide) |N/A |N/A |Yes |N/A |Yes |
-|Desktop (1920px wide) |N/A |N/A |N/A | Good|Good |
+|Galaxy S8+ |Yes |n/a |n/a |n/a |Yes |
+|iPad Mini |n/a|Yes |n/a |n/a |Yes |
+|Laptop (1366px wide) |n/a |n/a |Yes |n/a |Yes |
+|Desktop (1920px wide) |n/a |n/a |n/a |Yes |Yes |
 
 #### Browser compability
 Below is a table with different browsers, how the site appears on them and how the sites responsiveness is on them.
