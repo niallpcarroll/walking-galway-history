@@ -1,4 +1,3 @@
-
 # Walking Galway History
 
 The aim of this website is to provide clear and concise information on walking tours of Galway, Ireland, which focus on the city's history.
@@ -7,10 +6,7 @@ It is aimed primarily at tourists and visitors to Galway, and it is designed to 
 
 Find the link to the site [here](https://niallpcarroll.github.io/walking-galway-history/)
 
-
 ![Image of the site depicted on different devices](./assets/readme-images/am_i_responsive.png)
-
-
 
 ## Contents
 
@@ -67,15 +63,12 @@ I used [Contrast Grid](https://eightshapes.com) to check compliance of the main 
 
 ![Screenshot of colour contrast score](./assets/readme-images/eightshapes_contrast.png)
 
-
 ### Typography
 The website uses one font throughout: "Philosopher".
 
 ![Image of the font used in headings, Philosopher](./assets/readme-images/philosopher_font_heading.png)
 
-
 The "Philosopher" font is a sans-serif font which is very neat and suitable for both headings and text. It is clear and easy to read, but is not overly formal in its style.
-
 
 ### Imagery
 The images used on the website are up-to-date images of Galway, and they are all images of locations which visitors can expect to visit if they take part in a walking tour.
@@ -183,7 +176,6 @@ As with the home page, the contact page utilises a black and white image for the
 ![Screenshot of the website's error 404 page](./assets/readme-images/error_page.png)
 </details>
 
-
 ### Responsive Design
 The website is designed to be responsive throughout - the design changes to be more compatible depending on which screen size the visitor uses. On mobile devices, content appears in a single column, whereas on larger devices the content of the home page spreads out to take up more of the available space, and the gallery images arrange into columns to increase their visibility.
 
@@ -192,7 +184,6 @@ There is plenty of potential for future development of this website. Some featur
 - The possibility of a comments / review section. 
 - The possibility of an additional page with images and information of seasonal / occasional tours which might interest visitors.
 - The possibility of an additional page containing little-known facts about specific elements of Galway's history to further encourage uptake of the tours.
-
 
 ### Accessibility
 The website is designed to be accessible. Measures taken to ensure this include:
@@ -219,7 +210,6 @@ This website has been created using HTML and CSS.
 + [Font Awesome](https://www.fontawesome.com) - For icons used in header and footer.
 
 + [Balsamiq](https://www.balsamiq.com) - For wireframes.
-
 
 ## Deployment & Local Development
 
@@ -288,7 +278,7 @@ CSS and HTML for all pages passed without errors.
 #### Lighthouse
 Lighthouse is a tool created by Google to test a website's performance, accessibility, best practices, SEO and qualification as a progressive web application.
 
-It gives scores on the usability of the website. The test is done for mobile version and desktop version. Overall the scores for desktop devices are good, but performance is weaker for mobile devices, most likely due to some images being larger than necessary.
+It gives scores on the usability of the website. Tests were carried out for the Home, Gallery and Contact pages for the mobile version and the desktop version. Overall the scores for desktop devices are good, but performance is weaker for mobile devices, most likely due to some images being larger than necessary.
 
 **The scores for a desktop device:**
 
@@ -310,7 +300,6 @@ It gives scores on the usability of the website. The test is done for mobile ver
 ![Screenshot of the Lighthouse score for contact page on desktop](./assets/readme-images/desktop_contact_lighthouse.png)
 </details>
 
-
 **The scores for a mobile device:**
 
 <details>
@@ -331,10 +320,8 @@ It gives scores on the usability of the website. The test is done for mobile ver
 ![Screenshot of the Lighthouse score for contact page on mobile](./assets/readme-images/mobile_contact_lighthouse.png)
 </details>
 
-
-
 #### WAVE
-Wave is another tool to test the accessibility of the website. This is the result:
+WAVE provides evaluation tools which help authors and web designers make their web content more accessible to people with disabilities. This is the result of testing with WAVE:
 
 ![Screenshot of WAVE score result after second test](./assets/readme-images/wave_screenshot.png)
 
