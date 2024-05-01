@@ -203,16 +203,34 @@ To fork the repository:
 
 
 ## Testing
-### Automated testing
-#### W3C
+### Validator Testing
 I have used W3C validator to validate my HTML code and CSS code. I validated them via direct input.
+Both passed without errors.
 
-Both passed without errors. The warning in the CSS validation was regarding imported imported stylesheets - in this case the Google Fonts stylesheet.
+#### HTML Validation
+<details open>
+<summary>Index/Landing page HTML validation</summary> 
 
-![Screenshot of the W3C website after it validated this site's HTML code](./assets/readme-images/w3_validator.png)
+![Screenshot of Index page W3C validation](./assets/readme-images/galway_index_w3c.png)
+</details>
 
+<details>
+<summary>Gallery page HTML validation</summary>
 
-![Screenshot of the W3C website after it validated this site's CSS code](assets/images/readme-images/)
+![Screenshot of Gallery page W3C validation](./assets/readme-images/galway_gallery_w3c.png)
+</details>
+
+<details>
+<summary>Contact page HTML validation</summary>
+
+![Screenshot of Contact page W3C validation](./assets/readme-images/galway_contact_w3c.png)
+</details>
+
+#### CSS Validation
+<details open>
+<summary>Walking Galway History CSS validation</summary>
+
+![Screenshot of CSS validation for Walking Galway History](./assets/readme-images/css_validation.png)
 
 #### Lighthouse
 Lighthouse is a tool created by Google to test a website's performance, accessibility, best practices, SEO and qualification as a progressive web application.
