@@ -335,7 +335,7 @@ It gives scores on the usability of the website. The test is done for mobile ver
 
 
 #### WAVE
-Wave is another tool to test the accessibility of the site. This is the result:
+Wave is another tool to test the accessibility of the website. This is the result:
 
 ![Screenshot of WAVE score result after second test](./assets/readme-images/wave_screenshot.png)
 
@@ -397,7 +397,9 @@ A number of bugs were identified during the course of testing. These are outline
 ## Credits
 
 ### **Content References**
-+ The code for the nav bar (with dropdown menu) and the footer is adapted from the Love Running project (link to Github repository: https://github.com/niallpcarroll/love-running-project.git).
++ The code for the nav bar (along with its responsive CSS styling) and the footer is adapted from the Love Running project (link to Github repository: https://github.com/niallpcarroll/love-running-project.git).
+
++ [Code Institute](https://codeinstitute.net/ie/) for general HTML and CSS learning material.
 
 + The code for the hero image below the nav bar is adapted from the tutorial at W3Schools (https://www.w3schools.com/howto/howto_css_hero_image.asp).
 
@@ -417,6 +419,4 @@ A number of bugs were identified during the course of testing. These are outline
 + All images - background photographs and gallery images - are my own.
 
 ### Acknowledgments
-I wish to acknowledge the support given by Code Institute staff, particularly to Amy and to Lewis in Tutor Support, and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario Carrasquel.
-
-
+I wish to acknowledge the support and encouragement given by Code Institute staff, particularly to Amy and to Lewis in Tutor Support, and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario Carrasquel.
