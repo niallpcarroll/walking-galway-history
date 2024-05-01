@@ -8,7 +8,7 @@ It is aimed primarily at tourists and visitors to Galway, and it is designed to 
 Find the link to the site [here](https://niallpcarroll.github.io/walking-galway-history/)
 
 
-![Image of the site depicted on different devices](assets/images/readme-images/responsive-site.)
+![Image of the site depicted on different devices](./assets/readme-images/am_i_responsive.png)
 
 
 
@@ -41,26 +41,32 @@ Find the link to the site [here](https://niallpcarroll.github.io/walking-galway-
   - [Acknowledgments](#acknowledgments)
 
 ## User Experience
-The Walking Galway History website is designed to be easy and intuitive to use. It does not aim to provide extensive information on the history of Galway, but rather aims to encourage visitors to actually take part in the walks.
+The Walking Galway History website is designed to be easy and intuitive to use. It does not aim to provide extensive information on the history of Galway, but rather aims to encourage visitors to actually take part in the walks. The main page aims to give the most relevant details which potential visitors would seek, while the gallery page offers images with captions designed to entice visitors to learn more by taking one of the tours.
 
 ### User Stories
 The website should be very straightforward for first-time users - the aim of the website is clear and the necessary details are easily accessible.
 
-* The user wants a website whose purpuse and function is clear - in this case, providing information about historical walking tours of Galway city.
+* The user will see a website whose purpuse and function is clear - in this case, providing information about historical walking tours of Galway city.
 
 * The user wants an engaging experience, where the content of the website is clear, consistent and not overloaded with imagery or text.
 
-* The user would like a "preview" of what they might expect to see if they decide to take one of the tours on offer, i.e. the Gallery page.
+* The user will experience a "preview" of what they might expect to see if they decide to take one of the tours on offer, i.e. the Gallery page.
 
 * The user wants a clear method for contacting the tour organisers or for signing up to the newsletter - the contact page is accessible through the main menu and through links in the text on the main page and the gallery page.
 
 * Recurring visitors would like a website which is kept up to date and which is not overloaded with information (for example, dates and times of tours which are long past).
+
+* First-time and returning visitors are easily able to access social media links to keep up to date with news and events.
 
 ## Design
 ### Colour Scheme
 ![Image of the colour palette used](./assets/readme-images/galway_colour_scheme.png)
 
 There are two dominant colours throughout the website: #fffafa and #0c2b80. #fffafa (or "Snow") is an off-white shade, and #0c2b80 is a dark blue. Both colours have been chosen to create high contrast between text and backgrounds in order to create visual impact and accessibility to readers. The colour scheme is inverted a number of times: the header and the footer have dark blue text and icons on the #fffafa background, while the main body has #fffafa text on a dark blue background. A degree of transparency is added to the dark blue in order to bring visibility to the background image of Galway while still maintaining readability.
+
+I used [Contrast Grid](https://eightshapes.com) to check compliance of the main colours with WCAG 2.0 minimum contrast. The result is a rating of 12.1, as seen below:
+
+![Screenshot of colour contrast score](./assets/readme-images/eightshapes_contrast.png)
 
 
 ### Typography
@@ -76,27 +82,33 @@ The "Philosopher" font is a sans-serif font which is very neat and suitable for 
 The images used on the website are up-to-date images of Galway, and they are all images of locations which visitors can expect to visit if they take part in a walking tour.
 
 ![Screenshot of some of the images on the site](./assets/readme-images/images_screenshot.png)
+
 ### Wireframes 
 These were the original ideas for the three different sections:
 
-Images of wireframes for mobile devices:
+<details open>
+<summary>Images of wireframes for mobile devices:</summary>
 ![Image of the wireframe for mobiles](/assets/readme-images/Mobile_Wireframe.png)
+</details>
+
 ***
-Images of wireframes for tablets:
+<details>
+<summary>Images of wireframes for tablets:</summary>
 ![Image of the wireframe for tablets](/assets/readme-images/tablet_wireframe.png)
+</details>
+
 ***
-Images of wireframes for large screens:
+<details>
+<summary>Images of wireframes for large screens:</summary>
 
 ![Image of the homepage wireframe for large screens ](/assets/readme-images/home_large_screen.png)
 ![Image of the gallery wireframe for large screens ](/assets/readme-images/gallery_large_screen.png)
 ![Image of the contact wireframe for large screens ](/assets/readme-images/contact_large_screen.png)
+</details>
+
 ***
 
 
-### Other
-One unfortunate design feature... 
-
-Other solutions, like hiding a div in the page above and addressing the link there, where discarded.
 ## Features
 This site contains three pages:
 - Home page
@@ -105,33 +117,36 @@ This site contains three pages:
 ### General Features on each page
 **The header**, which displays the name of the website, sticks to the top of the viewport. On smaller screens there is a dropdown menu from a "burger" icon, which the user can employ to navigate to other pages on the website. On larger screens the dropdown menu opens out across the header, providing clear navigation buttons. Here is an image of the header with the opened menu as it appears on a mobile device:
 
-![Screenshot of the sites header](./assets/readme-images/galway_header.png)
+![Screenshot of the website's header](./assets/readme-images/galway_header.png)
 
+**The footer** contains links to Facebook, YouTube and Instagram to encourage visitors to keep in contact via social media.
+
+![Screenshot of the website's footer](./assets/readme-images/galway_footer.png)
+
+### The Home page
 **The Home page** aims to give the visitor clear information about the walking history tours, including times and other considerations (e.g. accessibility). It employs two background images of Galway city. These images are in black and white - apart from giving an appropriate "antiquated" feel, they do not distract the viewer from the main content, thus avoiding a visual overload.
 
-On larger screens the text divs are ordered so as to be slightly offset from each other - this is to avoid the screen appearing too text-heavy, while also revealing different sections of the background image as the user scrolls through the page. On larger screens, the "Home" button in the menu is underlined.
+On larger screens the text divs are ordered so as to be slightly offset from each other - this is to avoid the screen appearing too text-heavy, while also revealing different sections of the background image as the user scrolls through the page. On larger screens, the "Home" button in the menu is underlined. On smaller screens, the text areas appear in a single column - however, the light-coloured border is designed to give emphasis to the individual text areas to avoid the impression that there is one single block of text.
 
-![Screenshot of the sites landing page](./assets/readme-images/galway_landing_page.png)
+![Screenshot of the website's landing page](./assets/readme-images/galway_landing_page.png)
 
 **The Gallery page** is designed to give the visitor a preview of some of the historical sites they will visit in the course of the walk. With the aim of encouraging viewers to visit the sites in person, there is some text beneath each image which asks a question which will be answered on the tour.
 
 On smaller devices, the images appear in a single column, increasing to two columns and then three for larger screens. On larger screens, the "Gallery" button in the menu is underlined. The background colour for the gallery page is dark blue (#0c2b80) - there is no black and white image of Galway employed as in the home and contact pages in order to avoid the gallery page being too cluttered with layers of imagery.
 
-![Screenshot of the sites gallery page](./assets/readme-images/galway_gallery_page.png)
+![Screenshot of the website's gallery page](./assets/readme-images/galway_gallery_page.png)
 
 **The Contact page** is designed to engage visitors, giving them the option to make an enquiry or to sign up for newsletters or details of occasional related events.
 
 As with the home page, the contact page utilises a black and white image for the background, while the text of the contact section lies on a transparent dark blue area. On larger screens, the "Contact Us" button is underlined when the user is on this page.
 
-![Screenshot of the sites contact page](./assets/readme-images/galway_contact_page.png)
+![Screenshot of the website's contact page](./assets/readme-images/galway_contact_page.png)
 
 **The Confirmation page** is a page to which the user will be taken after they submit the contact form. It has the same general style as the other pages, and the text will confirm that their message has been submitted successfully. It is designed to automatically return the user to the home page in ten seconds.
 
-![Screenshot of the sites confirmation page](./assets/readme-images/galway_confirmation.png) 
+![Screenshot of the website's confirmation page](./assets/readme-images/galway_confirmation.png) 
 
-**The footer** contains links to Facebook, YouTube and Instagram to encourage visitors to keep in contact via social media.
 
-![Screenshot of the sites footer](./assets/readme-images/galway_footer.png)
 
 The site is responsive - the design changes to be more compatible depending on which screen size the visitor uses.
 
