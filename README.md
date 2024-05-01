@@ -132,25 +132,28 @@ On larger screens the text divs are ordered so as to be slightly offset from eac
 
 ![Screenshot of the website's landing page](./assets/readme-images/galway_landing_page.png)
 
+### The Gallery page
 **The Gallery page** is designed to give the visitor a preview of some of the historical sites they will visit in the course of the walk. With the aim of encouraging viewers to visit the sites in person, there is some text beneath each image which asks a question which will be answered on the tour.
 
 On smaller devices, the images appear in a single column, increasing to two columns and then three for larger screens. On larger screens, the "Gallery" button in the menu is underlined. The background colour for the gallery page is dark blue (#0c2b80) - there is no black and white image of Galway employed as in the home and contact pages in order to avoid the gallery page being too cluttered with layers of imagery.
 
 ![Screenshot of the website's gallery page](./assets/readme-images/galway_gallery_page.png)
 
+### The Contact page
 **The Contact page** is designed to engage visitors, giving them the option to make an enquiry or to sign up for newsletters or details of occasional related events.
 
 As with the home page, the contact page utilises a black and white image for the background, while the text of the contact section lies on a transparent dark blue area. On larger screens, the "Contact Us" button is underlined when the user is on this page.
 
 ![Screenshot of the website's contact page](./assets/readme-images/galway_contact_page.png)
 
+### The Confirmation page
 **The Confirmation page** is a page to which the user will be taken after they submit the contact form. It has the same general style as the other pages, and the text will confirm that their message has been submitted successfully. It is designed to automatically return the user to the home page in ten seconds.
 
 ![Screenshot of the website's confirmation page](./assets/readme-images/galway_confirmation.png) 
 
 
-
-The site is responsive - the design changes to be more compatible depending on which screen size the visitor uses.
+### Responsive Design
+The site is designed to be responsive throughout - the design changes to be more compatible depending on which screen size the visitor uses. On mobile devices, content appears in a single column, whereas on larger devices the content of the home page spreads out to take up more of the available space, and the gallery images arrange into columns to increase their visibility.
 
 ### Future Implementations
 There is plenty of potential for future development of this website. Some features that are planned but not yet executed are:
@@ -171,18 +174,23 @@ The site is designed to be accessible. Measures taken to ensure this include:
 
 ### Languages Used
 This website has been created using HTML and CSS
+
 ### Frameworks, Libraries & Programs Used
-Google Fonts -  For fonts
++ Google Fonts -  For Philosopher font
 
-Git - For version control
++ Git - For version control
 
-Github - To save & store files and deployment
++ Github - To save & store files and deployment
 
-Gitpod - IDE used to write the code
++ Gitpod - IDE used to write the code
 
-Font Awesome - For icons used in header and footer
++ Font Awesome - For icons used in header and footer
 
-Balsamiq - For wireframes
++ Balsamiq - For wireframes
+
++ [Icons 8](https://icons8.com) for the Favicon image
+
+
 ## Deployment & Local Development
 
 ### Deployment
