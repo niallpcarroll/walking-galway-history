@@ -89,7 +89,7 @@ These were the original ideas for the three different sections:
 <details open>
 <summary>Images of wireframes for mobile devices:</summary>
 
-![Image of the wireframe for mobiles](./assets/readme-images/Mobile_Wireframe.png)
+![Image of the wireframe for mobiles](./assets/readme-images/mobile_wireframe.png)
 </details>
 
 ***
