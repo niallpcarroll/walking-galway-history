@@ -347,11 +347,11 @@ An error appeared after the first test, indicating that a label element was miss
 
 ### Manual Testing
 #### Features
-Below is a table with the sites features, how it has been tested and what the outcome were.
+Below is a table with the website's features, detailing how it has been tested and the outcomes of testing:
 
 |Feature|Test case|Outcome|
 |---|---|---|
-|Header |Scroll down through site |Sticks to top of viewport |
+|Header |Scroll through website |Sticks to top of viewport |
 |Nav bar - Home |Click |Redirected to home page |
 |Nav bar - Gallery |Click |Redirected to Gallery page |
 |Nav bar - Contact |Click |Redirected to Contact page |
@@ -366,11 +366,13 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Social media link - Facebook |Click |External link to Facebook |
 |Social media link - Youtube |Click |External link to Youtube |
 |Social media link - Instagram |Click |External link to Instagram |
+|Footer |Scroll through website |Sticks to bottom of viewport |
+|Error page |Attempt navigation to non-existent page |Error page and message displays |
 
 #### Screen size compability
-Below is a table with different devices and the outcomes when visiting the site using different screen sizes.
+Below is a table with different devices and the outcomes when visiting the website using different screen sizes.
 
-|Device|Site responsive <768px|Site responsive 768px to 991px|Site responsive 992px to 1919px| Site responsive >=1920px| Renders as expected |
+|Device|Responsive <768px|Responsive 768px to 991px|Responsive 992px to 1919px|Responsive >=1920px| Renders as expected |
 |---|---|---|---|---|---| 
 |Galaxy S8+ |Yes |n/a |n/a |n/a |Yes |
 |iPad Mini |n/a|Yes |n/a |n/a |Yes |
@@ -378,7 +380,7 @@ Below is a table with different devices and the outcomes when visiting the site 
 |Desktop (1920px wide) |n/a |n/a |n/a |Yes |Yes |
 
 #### Browser compability
-Below is a table with different browsers, how the site appears on them and how the sites responsiveness is on them.
+Below is a table with different browsers which records the result of appearance and responsiveness of the website: 
 
 |Browser|Intended Appearance|Intended Responsiveness|
 |---|---|---|
@@ -387,17 +389,27 @@ Below is a table with different browsers, how the site appears on them and how t
 |Edge |Yes |Yes |
 |Brave |Yes |Yes |
 
+#### Bugs
+A number of bugs were identified during the course of testing. These are outlined below:
+
+| Bug | Section | Fix |
+|---|---|---|
+| Text input area overflowing outside of div background on small screens | Contact page | Set width property to 100% |
+| Unbalanced layout above 2100px | Home page | Additional CSS styling |
+| One p element separating from img element on tablet landscape screen | Gallery page | Added break-inside:avoid property to CSS | 
+
 ## Credits
 
-### Code Used
-The code for the nav bar (with dropdown menu) and the footer is adapted from the Love Running project (link to Github repository: https://github.com/niallpcarroll/love-running-project.git).
+### **Content References**
++ The code for the nav bar (with dropdown menu) and the footer is adapted from the Love Running project (link to Github repository: https://github.com/niallpcarroll/love-running-project.git).
 
-The code for the hero image below the nav bar is adapted from the tutorial at W3Schools (https://www.w3schools.com/howto/howto_css_hero_image.asp)
++ The code for the hero image below the nav bar is adapted from the tutorial at W3Schools (https://www.w3schools.com/howto/howto_css_hero_image.asp).
+
++ Guidance on column breaks in CSS came from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside).
+
++ My mentor, Dario Carrasquel, gave guidance on creating the Confirmation page with code for automatic return to Home page.
     
-
-
-### Content    
-Remaining content is written by myself.
++ Apart from references listed above, the code and content of the website is written by myself.
 
 ### Media
 Icons used throughout this website are freely available from https://fontawesome.com .
