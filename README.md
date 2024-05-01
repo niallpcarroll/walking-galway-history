@@ -119,37 +119,70 @@ This site contains three pages:
 ### General Features on each page
 **The header**, which displays the name of the website, sticks to the top of the viewport. On smaller screens there is a dropdown menu from a "burger" icon, which the user can employ to navigate to other pages on the website. On larger screens the dropdown menu opens out across the header, providing clear navigation buttons. Here is an image of the header with the opened menu as it appears on a mobile device:
 
-![Screenshot of the website's header](./assets/readme-images/galway_header.png)
+<details open>
+<summary>Screenshot of the Header</summary>
 
-**The footer** contains links to Facebook, YouTube and Instagram to encourage visitors to keep in contact via social media.
+![Screenshot of the website's header](./assets/readme-images/galway_header.png)
+</details>
+
+**The footer** contains links to Facebook, YouTube and Instagram to encourage visitors to keep in contact via social media. It provides easy access to social media links for users as it is stuck to the bottom of the viewport:
+
+<details open>
+<summary>Screenshot of the Footer</summary>
 
 ![Screenshot of the website's footer](./assets/readme-images/galway_footer.png)
+</details>
 
 ### The Home page
 **The Home page** aims to give the visitor clear information about the walking history tours, including times and other considerations (e.g. accessibility). It employs two background images of Galway city. These images are in black and white - apart from giving an appropriate "antiquated" feel, they do not distract the viewer from the main content, thus avoiding a visual overload.
 
-On larger screens the text divs are ordered so as to be slightly offset from each other - this is to avoid the screen appearing too text-heavy, while also revealing different sections of the background image as the user scrolls through the page. On larger screens, the "Home" button in the menu is underlined. On smaller screens, the text areas appear in a single column - however, the light-coloured border is designed to give emphasis to the individual text areas to avoid the impression that there is one single block of text.
+On larger screens the text divs are ordered so as to be slightly offset from each other - this is to avoid the screen appearing too text-heavy, while also revealing different sections of the background image as the user scrolls through the page. On larger screens, the "Home" button in the menu is underlined. On smaller screens, the text areas appear in a single column - however, the light-coloured border is designed to give emphasis to the individual text areas to avoid the impression that there is one single block of text. The icons and the headings give a clear focus to the content of each text area.
+
+<details open>
+<summary>Screenshot of the Home page</summary>
 
 ![Screenshot of the website's landing page](./assets/readme-images/galway_landing_page.png)
+</details>
 
 ### The Gallery page
 **The Gallery page** is designed to give the visitor a preview of some of the historical sites they will visit in the course of the walk. With the aim of encouraging viewers to visit the sites in person, there is some text beneath each image which asks a question which will be answered on the tour.
 
 On smaller devices, the images appear in a single column, increasing to two columns and then three for larger screens. On larger screens, the "Gallery" button in the menu is underlined. The background colour for the gallery page is dark blue (#0c2b80) - there is no black and white image of Galway employed as in the home and contact pages in order to avoid the gallery page being too cluttered with layers of imagery.
 
+<details open>
+<summary>Screenshot of the Gallery page</summary>
+
 ![Screenshot of the website's gallery page](./assets/readme-images/galway_gallery_page.png)
+</details>
 
 ### The Contact page
 **The Contact page** is designed to engage visitors, giving them the option to make an enquiry or to sign up for newsletters or details of occasional related events.
 
 As with the home page, the contact page utilises a black and white image for the background, while the text of the contact section lies on a transparent dark blue area. On larger screens, the "Contact Us" button is underlined when the user is on this page.
 
+<details open>
+<summary>Screenshot of the Contact page</summary>
+
 ![Screenshot of the website's contact page](./assets/readme-images/galway_contact_page.png)
+</details>
 
 ### The Confirmation page
 **The Confirmation page** is a page to which the user will be taken after they submit the contact form. It has the same general style as the other pages, and the text will confirm that their message has been submitted successfully. It is designed to automatically return the user to the home page in ten seconds.
 
-![Screenshot of the website's confirmation page](./assets/readme-images/galway_confirmation.png) 
+<details>
+<summary>Screenshot of Confirmation page</summary>
+
+![Screenshot of the website's confirmation page](./assets/readme-images/galway_confirmation.png)
+</details>
+
+### The Error page
+**The Error page** will appear if a page does not load or if the user attempts to access a non-existent page on the website. This page is styled in the same general way as the rest of the website, and the message which appears provides a link through which the user can return to the homepage.
+
+<details>
+<summary>Screenshot of Error 404 page</summary>
+
+![Screenshot of the website's error 404 page](./assets/readme-images/error_page.png)
+</details>
 
 
 ### Responsive Design
@@ -340,6 +373,6 @@ Icons used throughout this website are freely available from https://fontawesome
 All images - background photographs and gallery images - are my own.
 
 ### Acknowledgments
-I wish to acknowledge the support given by Code Institute staff and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario Carrasquel.
+I wish to acknowledge the support given by Code Institute staff, particularly to Amy and to Lewis in Tutor Support, and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario Carrasquel.
 
 
