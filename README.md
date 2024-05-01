@@ -88,22 +88,22 @@ These were the original ideas for the three different sections:
 
 <details open>
 <summary>Images of wireframes for mobile devices:</summary>
-![Image of the wireframe for mobiles](/assets/readme-images/Mobile_Wireframe.png)
+![Image of the wireframe for mobiles](./assets/readme-images/Mobile_Wireframe.png)
 </details>
 
 ***
 <details>
 <summary>Images of wireframes for tablets:</summary>
-![Image of the wireframe for tablets](/assets/readme-images/tablet_wireframe.png)
+![Image of the wireframe for tablets](./assets/readme-images/tablet_wireframe.png)
 </details>
 
 ***
 <details>
 <summary>Images of wireframes for large screens:</summary>
 
-![Image of the homepage wireframe for large screens ](/assets/readme-images/home_large_screen.png)
-![Image of the gallery wireframe for large screens ](/assets/readme-images/gallery_large_screen.png)
-![Image of the contact wireframe for large screens ](/assets/readme-images/contact_large_screen.png)
+![Image of the homepage wireframe for large screens ](./assets/readme-images/home_large_screen.png)
+![Image of the gallery wireframe for large screens ](./assets/readme-images/gallery_large_screen.png)
+![Image of the contact wireframe for large screens ](./assets/readme-images/contact_large_screen.png)
 </details>
 
 ***
