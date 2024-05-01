@@ -293,16 +293,48 @@ Both passed without errors.
 #### Lighthouse
 Lighthouse is a tool created by Google to test a website's performance, accessibility, best practices, SEO and qualification as a progressive web application.
 
-It gives scores on the usability of the site. The test is done for mobile version and desktop version.
+It gives scores on the usability of the site. The test is done for mobile version and desktop version. Overall the scores for desktop devices are good, but performance is weaker for mobile devices, most likely due to some images being larger than necessary.
 
-**The score for a mobile device:**
+**The scores for a desktop device:**
 
-![Screenshot of the Lighthouse score for a mobile device](./assets/readme-images/lighthouse_mobile.png)
+<details>
+<summary>Lighthouse score for Home page</summary>
+
+![Screenshot of the Lighthouse score for home page on desktop](./assets/readme-images/desktop_home_lighthouse.png)
+</details>
+
+<details>
+<summary>Lighthouse score for Gallery page</summary>
+
+![Screenshot of the Lighthouse score for gallery page on desktop](./assets/readme-images/desktop_gallery_lighthouse.png)
+</details>
+
+<details>
+<summary>Lighthouse score for Contact page</summary>
+
+![Screenshot of the Lighthouse score for contact page on desktop](./assets/readme-images/desktop_contact_lighthouse.png)
+</details>
 
 
-**The score for a desktop device:**
+**The scores for a mobile device:**
 
-![Screenshot of the Lighthouse score for a desktop device](./assets/readme-images/lighthouse_desktop.png)
+<details>
+<summary>Lighthouse score for Home page</summary>
+
+![Screenshot of the Lighthouse score for home page on mobile](./assets/readme-images/mobile_home_lighthouse.png)
+</details>
+
+<details>
+<summary>Lighthouse score for Gallery page</summary>
+
+![Screenshot of the Lighthouse score for gallery page on mobile](./assets/readme-images/mobile_gallery_lighthouse.png)
+</details>
+
+<details>
+<summary>Lighthouse score for Contact page</summary>
+
+![Screenshot of the Lighthouse score for contact page on mobile](./assets/readme-images/mobile_contact_lighthouse.png)
+</details>
 
 
 
