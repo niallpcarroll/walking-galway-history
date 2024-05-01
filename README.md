@@ -46,7 +46,7 @@ The Walking Galway History website is designed to be easy and intuitive to use. 
 ### User Stories
 The website should be very straightforward for first-time users - the aim of the website is clear and the necessary details are easily accessible.
 
-* The user will see a website whose purpuse and function is clear - in this case, providing information about historical walking tours of Galway city.
+* The user will see a website whose purpose and function is clear - in this case, providing information about historical walking tours of Galway city.
 
 * The user wants an engaging experience, where the content of the website is clear, consistent and not overloaded with imagery or text.
 
@@ -110,12 +110,12 @@ These were the original ideas for the three different sections:
 
 ***
 
-
 ## Features
-This site contains three pages:
+This website contains three pages:
 - Home page
 - Gallery page
 - Contact page
+
 ### General Features on each page
 **The header**, which displays the name of the website, sticks to the top of the viewport. On smaller screens there is a dropdown menu from a "burger" icon, which the user can employ to navigate to other pages on the website. On larger screens the dropdown menu opens out across the header, providing clear navigation buttons. Here is an image of the header with the opened menu as it appears on a mobile device:
 
@@ -147,7 +147,7 @@ On larger screens the text divs are ordered so as to be slightly offset from eac
 ### The Gallery page
 **The Gallery page** is designed to give the visitor a preview of some of the historical sites they will visit in the course of the walk. With the aim of encouraging viewers to visit the sites in person, there is some text beneath each image which asks a question which will be answered on the tour.
 
-On smaller devices, the images appear in a single column, increasing to two columns and then three for larger screens. On larger screens, the "Gallery" button in the menu is underlined. The background colour for the gallery page is dark blue (#0c2b80) - there is no black and white image of Galway employed as in the home and contact pages in order to avoid the gallery page being too cluttered with layers of imagery.
+On smaller devices, the images appear in a single column, increasing to two columns and then three for larger screens. On larger screens, the "Gallery" button in the menu is underlined. The background colour for the gallery page is dark blue (#0c2b80) - there is no black and white image of Galway employed as in the home and contact pages in order to avoid the gallery page being too cluttered with layers of imagery. However, with the use of the background colour (#0c2b80) and the light-coloured (#fffafa) image borders, the page remains stylistically consistent with the other pages of the website.
 
 <details open>
 <summary>Screenshot of the Gallery page</summary>
@@ -158,7 +158,7 @@ On smaller devices, the images appear in a single column, increasing to two colu
 ### The Contact page
 **The Contact page** is designed to engage visitors, giving them the option to make an enquiry or to sign up for newsletters or details of occasional related events.
 
-As with the home page, the contact page utilises a black and white image for the background, while the text of the contact section lies on a transparent dark blue area. On larger screens, the "Contact Us" button is underlined when the user is on this page.
+As with the home page, the contact page utilises a black and white image for the background, while the text of the contact section lies on a transparent dark blue area. On larger screens, the "Contact Us" button is underlined when the user is on this page. A hover feature on larger screens highlights the name and e-mail address input areas, while the colours of the "submit" button are reversed when the cursor is hovered over the button. 
 
 <details open>
 <summary>Screenshot of the Contact page</summary>
@@ -186,7 +186,7 @@ As with the home page, the contact page utilises a black and white image for the
 
 
 ### Responsive Design
-The site is designed to be responsive throughout - the design changes to be more compatible depending on which screen size the visitor uses. On mobile devices, content appears in a single column, whereas on larger devices the content of the home page spreads out to take up more of the available space, and the gallery images arrange into columns to increase their visibility.
+The website is designed to be responsive throughout - the design changes to be more compatible depending on which screen size the visitor uses. On mobile devices, content appears in a single column, whereas on larger devices the content of the home page spreads out to take up more of the available space, and the gallery images arrange into columns to increase their visibility.
 
 ### Future Implementations
 There is plenty of potential for future development of this website. Some features that are planned but not yet executed are:
@@ -196,30 +196,30 @@ There is plenty of potential for future development of this website. Some featur
 
 
 ### Accessibility
-The site is designed to be accessible. Measures taken to ensure this include:
-- Design which aims to minimise clutter, avoiding overload of images and text
-- High colour contrast between background and text
-- Clearly defined text areas
-- Alt attributes on all images
-- Aria labels on all icons
+The website is designed to be accessible. Measures taken to ensure this include:
+- Design which aims to minimise clutter, avoiding overload of images and text.
+- High colour contrast between background and text.
+- Clearly defined text areas.
+- Alt attributes on all images.
+- Aria labels on all icons.
 
 ## Technologies Used
 
 ### Languages Used
-This website has been created using HTML and CSS
+This website has been created using HTML and CSS.
 
 ### Frameworks, Libraries & Programs Used
-+ Google Fonts -  For Philosopher font
++ [Google Fonts](https://fonts.google.com) -  For Philosopher font.
 
-+ Git - For version control
++ Git - For version control.
 
-+ Github - To save & store files and deployment
++ Github - To save & store files and deployment.
 
-+ Gitpod - IDE used to write the code
++ Gitpod - IDE used to write the code.
 
-+ Font Awesome - For icons used in header and footer
++ [Font Awesome](https://www.fontawesome.com) - For icons used in header and footer.
 
-+ Balsamiq - For wireframes
++ [Balsamiq](https://www.balsamiq.com) - For wireframes.
 
 
 ## Deployment & Local Development
@@ -227,41 +227,39 @@ This website has been created using HTML and CSS
 ### Deployment
 Github pages is used to deploy this site. To deploy the site yourself, follow these instructions:
 
-- Sign in to Github
-- Go to the repository for this project called [*walking-galway-history*](https://github.com/niallpcarroll/walking-galway-history.git)
-- Click *settings*
-- In the column to the left, click *pages*
-- From the dropdown, select *main branch* and then save
-- The site is now deployed!
+1. Sign in to Github.
+2. Go to the repository for this project called [*walking-galway-history*](https://github.com/niallpcarroll/walking-galway-history.git).
+3. Click *settings*.
+4. In the column to the left, click *pages*.
+5. From the dropdown, select *main branch* and then save.
+6. The site is now deployed.
 ### Local Development
 
 #### How to Fork
 To fork the repository:
 
-- Log in to Github
+1. Log in to Github.
 
+2. Go to the repository for this project called [*walking-galway-history*](https://github.com/niallpcarroll/walking-galway-history.git).
 
-- Go to the repository for this project called *walking-galway-history*
-
-- Click the Fork button in the top right corner
+3. Click the Fork button in the top right corner.
 #### How to Clone
-- Log in (or sign up) to GitHub.
+1. Log in (or sign up) to GitHub.
 
-- Go to the repository for this project, [*walking-galway-history*](https://github.com/niallpcarroll/walking-galway-history.git).
+2. Go to the repository for this project, [*walking-galway-history*](https://github.com/niallpcarroll/walking-galway-history.git).
 
-- Click *Code* and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link.
+3. Click *Code* and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link.
 
-- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 
-- Type the following command in the terminal (after the git clone you will need to paste the link you copied in step 3 above):
+5. Type the following command in the terminal (after the git clone you will need to paste the link you copied in step 2 above):
 
-      git clone { & THE LINK FROM STEP 3 }
-
+      git clone { & THE LINK FROM STEP 2 }
 
 ## Testing
 ### Validator Testing
 I have used W3C validator to validate my HTML code and CSS code. I validated them via direct input.
-Both passed without errors.
+CSS and HTML for all pages passed without errors.
 
 #### HTML Validation
 <details open>
@@ -291,7 +289,7 @@ Both passed without errors.
 #### Lighthouse
 Lighthouse is a tool created by Google to test a website's performance, accessibility, best practices, SEO and qualification as a progressive web application.
 
-It gives scores on the usability of the site. The test is done for mobile version and desktop version. Overall the scores for desktop devices are good, but performance is weaker for mobile devices, most likely due to some images being larger than necessary.
+It gives scores on the usability of the website. The test is done for mobile version and desktop version. Overall the scores for desktop devices are good, but performance is weaker for mobile devices, most likely due to some images being larger than necessary.
 
 **The scores for a desktop device:**
 
