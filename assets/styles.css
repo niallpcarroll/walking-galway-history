@@ -433,3 +433,12 @@ footer>h2 {
         display: flex;
     }
 }
+
+/* Media query: Screens 2100px + */
+@media screen and (min-width: 2100px) {
+    #home-section {
+       margin-left: 5%;
+       padding-left: 5%;
+       padding-right: 10%;
+    }
+}
