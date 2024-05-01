@@ -35,8 +35,7 @@ Find the link to the site [here](https://niallpcarroll.github.io/walking-galway-
     - [How to Clone](#how-to-clone)
 - [Testing](#testing)
 - [Credits](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
+  - [Content](#content-references)
   - [Media](#media)
   - [Acknowledgments](#acknowledgments)
 
