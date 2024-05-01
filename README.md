@@ -88,12 +88,14 @@ These were the original ideas for the three different sections:
 
 <details open>
 <summary>Images of wireframes for mobile devices:</summary>
+
 ![Image of the wireframe for mobiles](./assets/readme-images/Mobile_Wireframe.png)
 </details>
 
 ***
 <details>
 <summary>Images of wireframes for tablets:</summary>
+
 ![Image of the wireframe for tablets](./assets/readme-images/tablet_wireframe.png)
 </details>
 
