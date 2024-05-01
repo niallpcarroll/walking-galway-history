@@ -221,8 +221,6 @@ This website has been created using HTML and CSS
 
 + Balsamiq - For wireframes
 
-+ [Icons 8](https://icons8.com) for the Favicon image
-
 
 ## Deployment & Local Development
 
@@ -412,9 +410,13 @@ A number of bugs were identified during the course of testing. These are outline
 + Apart from references listed above, the code and content of the website is written by myself.
 
 ### Media
-Icons used throughout this website are freely available from https://fontawesome.com .
++ Icons used throughout this website are freely available from [Font Awesome](https://fontawesome.com).
 
-All images - background photographs and gallery images - are my own.
++ [Icons 8](https://icons8.com) for the Favicon image.
+
++ [Google Maps](https://maps.google.com) for the map linked in the Home page.
+
++ All images - background photographs and gallery images - are my own.
 
 ### Acknowledgments
 I wish to acknowledge the support given by Code Institute staff, particularly to Amy and to Lewis in Tutor Support, and my peers throughout this project. I also acknowledge the invaluable advice and guidance given by my mentor, Mr Dario Carrasquel.
